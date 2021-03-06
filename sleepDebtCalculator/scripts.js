@@ -25,3 +25,12 @@ const getSleepHours = (day) => {
             return "Error!"
     }
 }
+
+const getActualSleepHours = () =>
+    getSleepHours('Monday') +
+    getSleepHours('Tuesday') +
+    getSleepHours('Wednesday') +
+    getSleepHours('Thursday') +
+    getSleepHours('Friday') +
+    getSleepHours('Saturday') +
+    getSleepHours('Sunday');
