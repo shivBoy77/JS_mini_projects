@@ -190,6 +190,6 @@
   
   
   .winning-text, .winning-text[disabled] {
-    color: #ec3636;
+    color: red;
     font-weight: 700;
   }
